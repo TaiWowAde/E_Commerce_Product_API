@@ -1,6 +1,6 @@
 # E-commerce Product API  
 
-The E-commerce Product API is a backend service developed as part of the ALX Backend Engineering Capstone. It is designed to simulate real-world backend development tasks in the e-commerce space, focusing on product catalog management, user authentication, search and filtering, and deployment readiness.
+The E-commerce Product API is a backend service developed as part of the ALX Backend Engineering Capstone. It is designed to simulate real-world backend development tasks in the e-commerce space, focusing on product catalog management, user authentication, search and filtering and deployment readiness.
 
 ##  Table of Contents  
 - [Project Overview](#project-overview)  
@@ -20,9 +20,8 @@ The E-commerce Product API is a backend service developed as part of the ALX Bac
 
 ##  Project Overview  
 
-This project follows RESTful principles and is implemented with Django and Django REST Framework. It provides a secure, modular, and extensible foundation for an e-commerce application, where users can register, log in, and manage products and categories. The API supports CRUD operations, token-based authentication, and flexible data retrieval with pagination, filtering, and search functionality.
+This project follows RESTful principles and is implemented with Django and Django REST Framework. It provides a secure, modular, and extensible foundation for an e-commerce application, where users can register, log in and manage products and categories. The API supports CRUD operations, token-based authentication and flexible data retrieval with pagination, filtering and search functionality.
 
-Beyond meeting the core requirements, the system has been structured with scalability and maintainability in mind—including clear separation of concerns across apps (users, products, categories), standardized error handling, and deployment readiness for platforms like Heroku or PythonAnywhere. 
 
 | Area                  | Description                                                                 |
 |------------------------|-----------------------------------------------------------------------------|
