@@ -1,10 +1,6 @@
 # E-commerce Product API  
 
-A **Django REST Framework (DRF)** API for managing products, categories and users in an e-commerce platform.  
-
-This project was built as part of the **ALX Backend Engineering Capstone** to demonstrate the design and implementation of a real-world backend service. It mimics the responsibilities of a backend developer in the e-commerce space: managing product catalogs, handling user authentication, implementing search and filtering and preparing the system for deployment.  A **Django REST Framework (DRF)** API for managing products, categories, and users in an e-commerce platform.  
-
-Built as part of the **ALX Backend Engineering Capstone Project**, this API demonstrates real-world backend development tasks: product management, authentication, search, filtering, and deployment readiness.  
+The E-commerce Product API is a backend service developed as part of the ALX Backend Engineering Capstone. It is designed to simulate real-world backend development tasks in the e-commerce space, focusing on product catalog management, user authentication, search and filtering, and deployment readiness.
 
 ##  Table of Contents  
 - [Project Overview](#project-overview)  
@@ -24,7 +20,9 @@ Built as part of the **ALX Backend Engineering Capstone Project**, this API demo
 
 ##  Project Overview  
 
-The **E-commerce Product API** is a backend service designed to power product management features of an e-commerce platform.  
+This project follows RESTful principles and is implemented with Django and Django REST Framework. It provides a secure, modular, and extensible foundation for an e-commerce application, where users can register, log in, and manage products and categories. The API supports CRUD operations, token-based authentication, and flexible data retrieval with pagination, filtering, and search functionality.
+
+Beyond meeting the core requirements, the system has been structured with scalability and maintainability in mind—including clear separation of concerns across apps (users, products, categories), standardized error handling, and deployment readiness for platforms like Heroku or PythonAnywhere. 
 
 | Area                  | Description                                                                 |
 |------------------------|-----------------------------------------------------------------------------|
