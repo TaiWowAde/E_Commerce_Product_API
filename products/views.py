@@ -1,0 +1,20 @@
+from django.shortcuts import render
+from rest_framework import viewsets, permissions, filters
+from django_filters.rest_framework import DjangoFilterBackend
+from .models import Product
+from .serializers import ProductSerializer
+
+class ProductViewSet(viewsets.ModelViewSet):
+    queryset = Product.objects.all().select_related("category", "created_by")
+    serializer_class = ProductSerializer
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
+
+    filter_backends = [DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter]
+    filterset_fields = ["category", "stock_quantity"]
+    search_fields = ["name", "description"]
+    ordering_fields = ["price", "created_date"]
+    ordering = ["-created_date"]
+
+    def perform_create(self, serializer):
+        serializer.save(created_by=self.request.user)
+
