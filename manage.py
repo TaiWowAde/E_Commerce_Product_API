@@ -7,6 +7,13 @@ import sys
 def main():
     """Run administrative tasks."""
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings")
+    
+    # opens dashboard + admin when running the dev server
+    if len(sys.argv) > 1 and sys.argv[1] == "runserver":
+        webbrowser.open("http://127.0.0.1:8000/dashboard/")
+        webbrowser.open_new_tab("http://127.0.0.1:8000/admin/")
+
+    
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
