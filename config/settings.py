@@ -3,6 +3,8 @@ import os
 
 AUTH_USER_MODEL = "users.User"
 ROOT_URLCONF = "config.urls"
+# read from environment in production, fallback for local dev
+SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "dev-fallback-only-use-locally")
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
