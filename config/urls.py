@@ -24,6 +24,8 @@ from products.views import ProductViewSet
 from categories.views import CategoryViewSet
 from users.views import RegisterView, ProfileView
 from rest_framework.authtoken.views import obtain_auth_token
+from dashboard import views as dash_views
+from django.contrib.auth import views as auth_views
 
 router = DefaultRouter()
 router.register("products", ProductViewSet, basename="product")
@@ -37,7 +39,12 @@ urlpatterns = [
     path("api/users/profile/", ProfileView.as_view(), name="profile"),
     path("api/", include(router.urls)),
     path("api-auth/", include("rest_framework.urls")), 
-
+    path("dashboard/", dash_views.dashboard_home, name="dashboard_home"),
+    path("accounts/login/", auth_views.LoginView.as_view(template_name="dashboard/login.html"), name="login"),
+    path("accounts/logout/", auth_views.LogoutView.as_view(next_page="login"), name="logout"),
 ]
+
+
+
 
 
