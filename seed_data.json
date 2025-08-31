@@ -1,0 +1,472 @@
+[
+{
+  "model": "categories.category",
+  "pk": 1,
+  "fields": {
+    "name": "Jellycat",
+    "description": "Soft toys by Jellycat — curated collection",
+    "created_at": "2025-08-31T16:56:30.024Z",
+    "updated_at": "2025-08-31T16:56:30.024Z"
+  }
+},
+{
+  "model": "categories.category",
+  "pk": 2,
+  "fields": {
+    "name": "Home Accessories",
+    "description": "Home & decor accessories such as candles, frames, and organizers.",
+    "created_at": "2025-08-31T17:04:11.637Z",
+    "updated_at": "2025-08-31T17:04:11.637Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "name": "Jellycat Bashful Bunny – Cream (Small)",
+    "description": "Jellycat Bashful Bunny – Cream (Small) — ultra-soft plush from Jellycat.",
+    "price": "17.50",
+    "stock_quantity": 40,
+    "image_url": "https://via.placeholder.com/640x640?text=Bashful+Bunny+Cream+Small",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.026Z",
+    "updated_date": "2025-08-31T16:56:30.026Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "name": "Jellycat Bashful Bunny – Beige (Medium)",
+    "description": "Jellycat Bashful Bunny – Beige (Medium) — ultra-soft plush from Jellycat.",
+    "price": "24.00",
+    "stock_quantity": 25,
+    "image_url": "https://via.placeholder.com/640x640?text=Bashful+Bunny+Beige+Medium",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.027Z",
+    "updated_date": "2025-08-31T16:56:30.027Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "name": "Jellycat Bashful Bunny – Blossom Tulip",
+    "description": "Jellycat Bashful Bunny – Blossom Tulip — ultra-soft plush from Jellycat.",
+    "price": "26.00",
+    "stock_quantity": 30,
+    "image_url": "https://via.placeholder.com/640x640?text=Blossom+Tulip+Bunny",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.028Z",
+    "updated_date": "2025-08-31T16:56:30.028Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "name": "Jellycat Odell Octopus (Medium)",
+    "description": "Jellycat Odell Octopus (Medium) — ultra-soft plush from Jellycat.",
+    "price": "32.00",
+    "stock_quantity": 18,
+    "image_url": "https://via.placeholder.com/640x640?text=Odell+Octopus+Medium",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.029Z",
+    "updated_date": "2025-08-31T16:56:30.029Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "name": "Jellycat Fuddlewuddle Elephant",
+    "description": "Jellycat Fuddlewuddle Elephant — ultra-soft plush from Jellycat.",
+    "price": "28.00",
+    "stock_quantity": 22,
+    "image_url": "https://via.placeholder.com/640x640?text=Fuddlewuddle+Elephant",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.030Z",
+    "updated_date": "2025-08-31T16:56:30.030Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "name": "Jellycat Amuseables Avocado",
+    "description": "Jellycat Amuseables Avocado — ultra-soft plush from Jellycat.",
+    "price": "24.50",
+    "stock_quantity": 35,
+    "image_url": "https://via.placeholder.com/640x640?text=Amuseables+Avocado",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.031Z",
+    "updated_date": "2025-08-31T16:56:30.031Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "name": "Jellycat Amuseables Coffee-To-Go",
+    "description": "Jellycat Amuseables Coffee-To-Go — ultra-soft plush from Jellycat.",
+    "price": "22.00",
+    "stock_quantity": 28,
+    "image_url": "https://via.placeholder.com/640x640?text=Coffee+To+Go",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.033Z",
+    "updated_date": "2025-08-31T16:56:30.033Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "name": "Jellycat Bashful Lamb (Small)",
+    "description": "Jellycat Bashful Lamb (Small) — ultra-soft plush from Jellycat.",
+    "price": "17.50",
+    "stock_quantity": 36,
+    "image_url": "https://via.placeholder.com/640x640?text=Bashful+Lamb+Small",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.034Z",
+    "updated_date": "2025-08-31T16:56:30.034Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 9,
+  "fields": {
+    "name": "Jellycat Bartholomew Bear (Medium)",
+    "description": "Jellycat Bartholomew Bear (Medium) — ultra-soft plush from Jellycat.",
+    "price": "30.00",
+    "stock_quantity": 20,
+    "image_url": "https://via.placeholder.com/640x640?text=Bartholomew+Bear+Medium",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.035Z",
+    "updated_date": "2025-08-31T16:56:30.035Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 10,
+  "fields": {
+    "name": "Jellycat Bashful Monkey (Medium)",
+    "description": "Jellycat Bashful Monkey (Medium) — ultra-soft plush from Jellycat.",
+    "price": "24.00",
+    "stock_quantity": 26,
+    "image_url": "https://via.placeholder.com/640x640?text=Bashful+Monkey+Medium",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.036Z",
+    "updated_date": "2025-08-31T16:56:30.036Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 11,
+  "fields": {
+    "name": "Jellycat Bashful Puppy – Black & Cream",
+    "description": "Jellycat Bashful Puppy – Black & Cream — ultra-soft plush from Jellycat.",
+    "price": "24.00",
+    "stock_quantity": 24,
+    "image_url": "https://via.placeholder.com/640x640?text=Bashful+Puppy+B%26C",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.037Z",
+    "updated_date": "2025-08-31T16:56:30.037Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 12,
+  "fields": {
+    "name": "Jellycat Amuseables Sun",
+    "description": "Jellycat Amuseables Sun — ultra-soft plush from Jellycat.",
+    "price": "27.00",
+    "stock_quantity": 16,
+    "image_url": "https://via.placeholder.com/640x640?text=Amuseables+Sun",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.037Z",
+    "updated_date": "2025-08-31T16:56:30.037Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "name": "Jellycat Amuseables Cloud",
+    "description": "Jellycat Amuseables Cloud — ultra-soft plush from Jellycat.",
+    "price": "27.00",
+    "stock_quantity": 14,
+    "image_url": "https://via.placeholder.com/640x640?text=Amuseables+Cloud",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.038Z",
+    "updated_date": "2025-08-31T16:56:30.038Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "name": "Jellycat Bashful Unicorn (Medium)",
+    "description": "Jellycat Bashful Unicorn (Medium) — ultra-soft plush from Jellycat.",
+    "price": "26.00",
+    "stock_quantity": 19,
+    "image_url": "https://via.placeholder.com/640x640?text=Bashful+Unicorn+Medium",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.039Z",
+    "updated_date": "2025-08-31T16:56:30.039Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 15,
+  "fields": {
+    "name": "Jellycat Bashful Dragon (Medium)",
+    "description": "Jellycat Bashful Dragon (Medium) — ultra-soft plush from Jellycat.",
+    "price": "26.00",
+    "stock_quantity": 21,
+    "image_url": "https://via.placeholder.com/640x640?text=Bashful+Dragon+Medium",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.040Z",
+    "updated_date": "2025-08-31T16:56:30.040Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 16,
+  "fields": {
+    "name": "Jellycat Smudge Hippo",
+    "description": "Jellycat Smudge Hippo — ultra-soft plush from Jellycat.",
+    "price": "34.00",
+    "stock_quantity": 12,
+    "image_url": "https://via.placeholder.com/640x640?text=Smudge+Hippo",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.041Z",
+    "updated_date": "2025-08-31T16:56:30.041Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 17,
+  "fields": {
+    "name": "Jellycat Bashful Fox Cub",
+    "description": "Jellycat Bashful Fox Cub — ultra-soft plush from Jellycat.",
+    "price": "24.00",
+    "stock_quantity": 23,
+    "image_url": "https://via.placeholder.com/640x640?text=Bashful+Fox+Cub",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.042Z",
+    "updated_date": "2025-08-31T16:56:30.042Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 18,
+  "fields": {
+    "name": "Jellycat Amuseables Watermelon",
+    "description": "Jellycat Amuseables Watermelon — ultra-soft plush from Jellycat.",
+    "price": "25.00",
+    "stock_quantity": 27,
+    "image_url": "https://via.placeholder.com/640x640?text=Amuseables+Watermelon",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.043Z",
+    "updated_date": "2025-08-31T16:56:30.043Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 19,
+  "fields": {
+    "name": "Jellycat Bashful Koala",
+    "description": "Jellycat Bashful Koala — ultra-soft plush from Jellycat.",
+    "price": "24.00",
+    "stock_quantity": 22,
+    "image_url": "https://via.placeholder.com/640x640?text=Bashful+Koala",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.044Z",
+    "updated_date": "2025-08-31T16:56:30.044Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 20,
+  "fields": {
+    "name": "Jellycat Amuseables Croissant",
+    "description": "Jellycat Amuseables Croissant — ultra-soft plush from Jellycat.",
+    "price": "20.00",
+    "stock_quantity": 29,
+    "image_url": "https://via.placeholder.com/640x640?text=Amuseables+Croissant",
+    "category": 1,
+    "created_by": 1,
+    "created_date": "2025-08-31T16:56:30.045Z",
+    "updated_date": "2025-08-31T16:56:30.045Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 21,
+  "fields": {
+    "name": "Aroma Soy Candle – Vanilla",
+    "description": "Hand-poured soy candle with a warm vanilla scent (40hr burn).",
+    "price": "12.99",
+    "stock_quantity": 50,
+    "image_url": "https://via.placeholder.com/400x400?text=Candle+Vanilla",
+    "category": 2,
+    "created_by": 1,
+    "created_date": "2025-08-31T17:04:11.975Z",
+    "updated_date": "2025-08-31T17:04:11.975Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 22,
+  "fields": {
+    "name": "Aroma Soy Candle – Lavender",
+    "description": "Relaxing lavender scent, cotton wick, clean burn.",
+    "price": "12.99",
+    "stock_quantity": 45,
+    "image_url": "https://via.placeholder.com/400x400?text=Candle+Lavender",
+    "category": 2,
+    "created_by": 1,
+    "created_date": "2025-08-31T17:04:11.977Z",
+    "updated_date": "2025-08-31T17:04:11.977Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 23,
+  "fields": {
+    "name": "Ceramic Planter – 12cm",
+    "description": "Matte white ceramic planter with drainage hole.",
+    "price": "9.50",
+    "stock_quantity": 60,
+    "image_url": "https://via.placeholder.com/400x400?text=Ceramic+Planter",
+    "category": 2,
+    "created_by": 1,
+    "created_date": "2025-08-31T17:04:11.978Z",
+    "updated_date": "2025-08-31T17:04:11.978Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 24,
+  "fields": {
+    "name": "Bamboo Desk Organizer",
+    "description": "3-slot bamboo organizer for pens, notes, and clips.",
+    "price": "14.00",
+    "stock_quantity": 40,
+    "image_url": "https://via.placeholder.com/400x400?text=Bamboo+Organizer",
+    "category": 2,
+    "created_by": 1,
+    "created_date": "2025-08-31T17:04:11.979Z",
+    "updated_date": "2025-08-31T17:04:11.979Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 25,
+  "fields": {
+    "name": "Photo Frame 6x4 – Oak",
+    "description": "Minimal oak frame with stand and wall mount.",
+    "price": "7.99",
+    "stock_quantity": 70,
+    "image_url": "https://via.placeholder.com/400x400?text=Frame+6x4",
+    "category": 2,
+    "created_by": 1,
+    "created_date": "2025-08-31T17:04:11.980Z",
+    "updated_date": "2025-08-31T17:04:11.980Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 26,
+  "fields": {
+    "name": "Photo Frame 7x5 – Black",
+    "description": "Sleek black frame with glass front.",
+    "price": "8.99",
+    "stock_quantity": 65,
+    "image_url": "https://via.placeholder.com/400x400?text=Frame+7x5",
+    "category": 2,
+    "created_by": 1,
+    "created_date": "2025-08-31T17:04:11.981Z",
+    "updated_date": "2025-08-31T17:04:11.981Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 27,
+  "fields": {
+    "name": "Cotton Throw Blanket – Grey",
+    "description": "Soft woven throw, 130x160cm, machine washable.",
+    "price": "24.99",
+    "stock_quantity": 30,
+    "image_url": "https://via.placeholder.com/400x400?text=Throw+Grey",
+    "category": 2,
+    "created_by": 1,
+    "created_date": "2025-08-31T17:04:11.982Z",
+    "updated_date": "2025-08-31T17:04:11.982Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 28,
+  "fields": {
+    "name": "Wall Hook Set (3) – Brass",
+    "description": "Brushed brass hooks, screws included.",
+    "price": "11.50",
+    "stock_quantity": 55,
+    "image_url": "https://via.placeholder.com/400x400?text=Brass+Hooks",
+    "category": 2,
+    "created_by": 1,
+    "created_date": "2025-08-31T17:04:11.983Z",
+    "updated_date": "2025-08-31T17:04:11.983Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 29,
+  "fields": {
+    "name": "Table Clock – Minimal White",
+    "description": "Silent sweep movement, AA battery powered.",
+    "price": "16.75",
+    "stock_quantity": 35,
+    "image_url": "https://via.placeholder.com/400x400?text=Table+Clock",
+    "category": 2,
+    "created_by": 1,
+    "created_date": "2025-08-31T17:04:11.985Z",
+    "updated_date": "2025-08-31T17:04:11.985Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 30,
+  "fields": {
+    "name": "Reed Diffuser – Citrus",
+    "description": "Uplifting citrus fragrance, 100ml with 6 reeds.",
+    "price": "13.99",
+    "stock_quantity": 48,
+    "image_url": "https://via.placeholder.com/400x400?text=Diffuser+Citrus",
+    "category": 2,
+    "created_by": 1,
+    "created_date": "2025-08-31T17:04:11.986Z",
+    "updated_date": "2025-08-31T17:04:11.986Z"
+  }
+}
+]
