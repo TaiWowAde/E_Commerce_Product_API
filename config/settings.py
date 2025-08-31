@@ -1,6 +1,9 @@
 from pathlib import Path
 import os
 
+AUTH_USER_MODEL = "users.User"
+ROOT_URLCONF = "config.urls"
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 DEBUG = False
