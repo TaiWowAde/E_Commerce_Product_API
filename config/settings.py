@@ -11,7 +11,7 @@ WSGI_APPLICATION = "config.wsgi.application"
 
 # --- Environment-driven secrets ---
 SECRET_KEY = config("DJANGO_SECRET_KEY", default="dev-fallback-only")
-DEBUG = config("DJANGO_DEBUG", default=True, cast=)
+DEBUG = config("DJANGO_DEBUG", default=True, cast=bool)
 
 ALLOWED_HOSTS = [
     "taiwowade.pythonanywhere.com",
