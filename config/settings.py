@@ -1,14 +1,14 @@
 from pathlib import Path
 import os
+from decouple import config, Csv
 
 AUTH_USER_MODEL = "users.User"
 ROOT_URLCONF = "config.urls"
-# read from environment in production, fallback for local dev
-SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "dev-fallback-only-use-locally")
-
+# read from environment in production, fallback for local dev\
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-DEBUG = False
+SECRET_KEY = config("DJANGO_SECRET_KEY", default="dev-fallback-only")
+DEBUG = config("DJANGO_DEBUG", default=True, cast=bool)
 
 ALLOWED_HOSTS = ["taiwowade.pythonanywhere.com", "127.0.0.1", "localhost"]
 
