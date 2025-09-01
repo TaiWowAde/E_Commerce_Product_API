@@ -138,6 +138,55 @@ python manage.py runserver
 
 ## API Endpoints
 
+## API Endpoints
+
+| Endpoint | Method(s) | Description |
+|----------|-----------|-------------|
+| `/api/products/` | GET | List all products |
+| `/api/products/` | POST | Create a new product *(auth required)* |
+| `/api/products/{id}/` | GET | Retrieve a single product |
+| `/api/products/{id}/` | PUT, PATCH | Update a product *(auth required)* |
+| `/api/products/{id}/` | DELETE | Remove a product *(auth required)* |
+| `/api/categories/` | GET | List all categories |
+| `/api/categories/` | POST | Create a new category *(auth required)* |
+| `/api/categories/{id}/` | GET | Retrieve a single category |
+| `/api/categories/{id}/` | PUT, PATCH | Update a category *(auth required)* |
+| `/api/categories/{id}/` | DELETE | Remove a category *(auth required)* |
+| `/api/auth/register/` | POST | Register a new user account |
+| `/api/auth/login/` | POST | Obtain an authentication token |
+| `/api/users/profile/` | GET | Retrieve the authenticated user's profile |
+| `/api/users/profile/` | PUT, PATCH | Update the authenticated user's profile |
+
+## Example Requests
+
+### List Products
+
+**Request**
+
+```bash
+curl -X GET http://127.0.0.1:8000/api/products/
+```
+
+**Response**
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "description": "Compact wireless mouse",
+    "price": "25.99",
+    "stock_quantity": 100,
+    "image_url": "https://example.com/mouse.jpg",
+    "category": 2,
+    "created_by": 1,
+    "created_date": "2024-01-05T12:00:00Z",
+    "updated_date": "2024-01-05T12:00:00Z"
+  }
+]
+```
+
+
 ## About
 
 Author: Taiwo Adeyinka (@TaiWowAde)
