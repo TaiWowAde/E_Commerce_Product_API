@@ -82,9 +82,7 @@ class ProductAPITest(TestCase):
         self.assertEqual(response.data["name"], "Phone")
 
         # Update
-        response = self.client.patch(
-            f"/api/products/{prod_id}/", {"stock_quantity": 5}, format="json"
-        )
+        response = self.client.patch(f"/api/products/{prod_id}/", {"stock_quantity": 5}, format="json")
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.data["stock_quantity"], 5)
 
@@ -93,3 +91,29 @@ class ProductAPITest(TestCase):
         self.assertEqual(response.status_code, 204)
         self.assertEqual(Product.objects.count(), 0)
 
+
+
+    def test_search_by_category_name(self):
+        other_category = Category.objects.create(name="Books")
+
+        Product.objects.create(
+            name="Phone",
+            description="Smart phone",
+            price=Decimal("199.99"),
+            stock_quantity=10,
+            category=self.category,
+            created_by=self.user,
+        )
+        Product.objects.create(
+            name="Novel",
+            description="Fiction book",
+            price=Decimal("10.00"),
+            stock_quantity=5,
+            category=other_category,
+            created_by=self.user,
+        )
+
+        response = self.client.get("/api/products/?search=Electronics")
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.data["count"], 1)
+        self.assertEqual(response.data["results"][0]["name"], "Phone")
