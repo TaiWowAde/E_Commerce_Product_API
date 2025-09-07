@@ -11,11 +11,7 @@ The E-commerce Product API is a backend service developed as part of the ALX Bac
 - [Project Structure](#project-structure)  
 - [Setup Instructions](#setup-instructions)  
 - [API Endpoints](#api-endpoints)  
-- [Example Requests](#example-requests)  
-- [Error Handling](#error-handling)  
-- [Current Status](#current-status)  
-- [Roadmap / Stretch Goals](#roadmap--stretch-goals)  
-- [Deployment](#deployment)  
+- [Example Requests](#example-requests)   
 - [About](#about)  
 
 ##  Project Overview  
