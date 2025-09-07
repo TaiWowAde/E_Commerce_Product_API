@@ -1,6 +1,6 @@
 # E-commerce Product API  
 
-The E-commerce Product API is a backend service developed as part of the ALX Backend Engineering Capstone. It is designed to simulate real-world backend development tasks in the e-commerce space, focusing on product catalog management, user authentication, search and filtering and deployment readiness.
+The E-commerce Product API is a backend service developed as part of the ALX Backend Engineering Capstone. It is designed to simulate real-world backend development tasks in the e-commerce space, focusing on product catalog management, user authentication, search and filtering.
 
 ##  Table of Contents  
 - [Project Overview](#project-overview)  
