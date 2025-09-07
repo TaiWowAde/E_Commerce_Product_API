@@ -100,7 +100,6 @@ ecommerce-product-api/
 │   ├── views.py
 │   └── admin.py
 ├── requirements.txt
-├── requirements.lock
 ├── README.md
 └── manage.py
 ```
